@@ -1,0 +1,56 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>电影票抢购系统</title>
+<link href="./css/index.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="./js/index.js" charset="UTF-8"></script>
+</head>
+<body onload="loadTicketNums()">
+	<div class="logins">
+		<p class="ti">电 影 票 抢 购 系 统
+		</p>
+	</div>
+	<br />
+	<br />
+	<table class="movie">
+	</table>
+	<div class="box">
+		<div class="login_title">
+			<h2>登录</h2>
+			<a class="close"><img src="pic/img/close_hover.jpg"
+				class="close_pic" /></a>
+		</div>
+		<div class="login_content">
+			<form name="login_form" onsubmit="return false;">
+				<div class="login_form_content">
+					<span></span>
+					<div class="login_form_content_1" id="div_username">
+						<input type="text" name="username" placeholder="用户名/邮箱"
+							id="user_name"
+							onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')" />
+					</div>
+					<div class="login_form_content_1" id="div_password">
+						<input type="password" name="userpossword" placeholder="密码"
+							id="password" />
+					</div>
+					<div class="login_form_content_2">
+						<input type="submit" value="登&nbsp;&nbsp;录" class="login"
+							id="submitStatic" /> <a class="forget">忘记密码？</a> <a
+							class="register" >注册</a>
+					</div>
+					<br />
+					<div class="other">
+						<p>其他登录方式：</p>
+						<a class="qq"><img src="pic/img/qq.jpg" height="20px"
+							class="QQ_pic" />QQ</a> <a class="weibo"><img
+							src="pic/img/weibo.jpg" height="20px" class="QQ_pic" />新浪微博</a>
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
