@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Rush_Ticket">
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/resources"/>
+        <wb-resource deploy-path="/" source-path="/src/main/webapp"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java/lab/io/rush"/>
+        <property name="context-root" value="Rush_Ticket"/>
+        <property name="java-output-path" value="/Rush_Ticket/target/classes"/>
+    </wb-module>
+</project-modules>
