@@ -1,0 +1,53 @@
+@CHARSET "UTF-8";
+.logins {
+	position: absolute;
+	top: 0px;
+	background-color: black;
+	height: 50px;
+	width: 1400px;
+	text-align: center;
+}
+
+.ti {
+	font-size: 1.5em;
+	color: white;
+	font-family: STXingkai;
+}
+
+.register {
+	position: absolute;
+	height: 350px;
+	width: 380px;
+	top: 230px;
+	left: 58%;
+	background-color: white;
+}
+
+.img {
+	position: relative;
+	top: 70px;
+	left: 8%;
+	width: 1200px;
+	right: 8%;
+}
+
+img {
+	width: 1200px;
+}
+
+.input_c {
+	margin: 0px 40px 20px;
+	font-size: 1.2em;
+	font-family: STKaiti
+}
+
+.register_user_name,.sex,.register_email,.register_password{
+	font-family:HelveticaNeue-Light,Helvetica,PingFangSC-Light,Hiragino Sans GB,Microsoft YaHei,Arial,sans-serif;
+}
+
+.submit {
+	margin-left: 35%;
+	width: 80px;
+	font-size: 1.5em;
+	font-family: STKaiti;
+}
