@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=UTF-8">
+<title>电影票抢购系统</title>
+<link href="./css/register.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript"
+	src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="./js/register.js" charset="UTF-8"></script>
+</head>
+<body>
+	<div class="logins">
+		<p class="ti">电 影 票 抢 购 系 统
+		<p>
+	</div>
+	<div class="img">
+		<img src="./pic/register.jpg"></img>
+	</div>
+	<div class="register">
+		<h2 align="center">用户注册</h2>
+		<form class="input_c" name="input" method="post" class="login-form" action="registerController.do">
+			<p class="p_name">
+				用户姓名：<input type="text" id="user_name" class="register_user_name"
+					maxlength="32" tabindex="1" placeholder="仅限中英文，数字" name="user_name"
+					onkeyup="value=value.replace(/[^\a-\z\A-\Z0-9\u4E00-\u9FA5]/g,'')">
+			</p>
+			<p>
+				性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<select
+					name="sex" tabindex="2" class="sex">
+					<option value="man">男</option>
+					<option value="women">女</option>
+				</select>
+			</p>
+			<p class="p_email">
+				邮箱地址：<input type="text" id="email" class="register_email"
+					maxlength="32" tabindex="3" name="email">
+			</p>
+			<p class="p_password">
+				密码输入：<input type="password" id="password" class="register_password" name="password"
+					maxlength="40" tabindex="4" autocomplete="off" placeholder="密码长度为6-20位">
+			</p>
+			<p class="p_Rpassword">
+				再次输入：<input type="password" id="repassword" name="repassword"
+					class="register_password" maxlength="40" tabindex="5"
+					autocomplete="off" placeholder="密码长度为6-20位">
+			</p>
+			<input type="submit" class="submit" tabindex="6" id="submitStatic"
+				data-ing="注册中..." value="注册" />
+		</form>
+	</div>
+</body>
+</html>
